@@ -394,7 +394,7 @@ def generate_image():
         return jsonify({"error": "Missing uid or region"}), 400
 
     try:
-        data = GetAccountInformation(uid, "7", region, "/GetPlayerPersonalShow")
+        data = GetAccountInformation(uid,  "br")
     except Exception as e:
         logging.error("Player info fetch error: %s", e)
         return jsonify({"error": str(e)}), 500
