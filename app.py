@@ -430,6 +430,10 @@ def generate_image():
         icon_urlx = NIVEL_ICONES.get("user")
     else:
         icon_urlx = None
+    if role_value == 16384:
+        icon_urlx = NIVEL_ICONES.get("vip")
+    else:
+        icon_urlx = None
     if devex and nivel:
         icon_url = NIVEL_ICONES.get(nivel)
         if icon_url:
