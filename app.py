@@ -428,9 +428,7 @@ def generate_image():
     prime_level_value = 0  # valor padrão
     if 64 <= role_value <= 8192:
         icon_urlx = NIVEL_ICONES.get("user")
-    else:
-        icon_urlx = None
-    if role_value == 16384:
+    elif role_value == 16384:
         icon_urlx = NIVEL_ICONES.get("vip")
     else:
         icon_urlx = None
