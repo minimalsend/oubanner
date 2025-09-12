@@ -178,7 +178,7 @@ ACCOUNT_LEVEL_POSITION  = {"x": 180, "y": 45, "font_size": 12.5}
 GUILD_NAME_POSITION     = {"x": 62,  "y": 40, "font_size": 12.5}
 AVATAR_POSITION         = {"x": 0,   "y": 0,  "width": 60, "height": 60}
 PIN_POSITION            = {"x": 2,   "y": 42, "width": 15, "height": 15}
-BADGE_POSITION          = {"x": 35,  "y": -1,  "width": 28, "height": 28}
+BADGE_POSITION          = {"x": 33,  "y": -3,  "width": 35, "height": 35}
 
 SCALE = 8
 FALLBACK_BANNER_ID = "900000014"
